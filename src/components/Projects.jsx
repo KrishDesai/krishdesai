@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { PROJECTS } from "../constants"; 
 import { FaLaptopCode } from "react-icons/fa6";
 import { motion } from "framer-motion"; 

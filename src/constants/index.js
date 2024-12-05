@@ -44,9 +44,9 @@ export const PROJECTS = [
     description: "Predicting the prices of the SP500 with Random Forest Machine Learning Model",
   },
   {
-    title: "Course Checkr",
+    title: "Bourbon",
     image: project3,
-    description: "Course Checking Website Similar to MyBluePrint",
+    description: "Past Cornell syllabi database to make course registration easier.",
   },
   {
     title: "World of Devs",
