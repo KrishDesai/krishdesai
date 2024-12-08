@@ -41,8 +41,8 @@ const Projects = () => {
             <div key={index} className="flex-none w-96 mx-2 my-3 px-5">
               <img
                 src={project.image}
-                width={750}
-                height={250}
+                width={950}
+                height={950}
                 alt={project.title}
                 className="mb-6 rounded-2xl"
               />
