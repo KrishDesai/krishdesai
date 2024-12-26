@@ -38,11 +38,11 @@ const Projects = () => {
         ref={scrollRef}
         className="projects-scroll-container flex overflow-x-auto space-x-4 py-4 px-2">
           {[...PROJECTS, ...PROJECTS].map((project, index) => (
-            <div key={index} className="flex-none w-96 mx-2 my-3 px-5">
+            <div key={index} className="flex-none w-[550px] mx-4 my-3 px-5"> {/* Increased width */}
               <img
                 src={project.image}
-                width={950}
-                height={950}
+                width={500} /* Updated width */
+                height={500} /* Updated height */
                 alt={project.title}
                 className="mb-6 rounded-2xl"
               />
