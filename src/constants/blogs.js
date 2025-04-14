@@ -3,7 +3,7 @@ export const BLOGS = [
     id: 1,
     title: "Why We Should Turn a Blind Eye to Artificial Intelligence's Environmental Problem — For Now",
     date: "April 14, 2024",
-    excerpt: "A deep dive into how large language models work, their architecture, and their impact on natural language processing.",
+    excerpt: "Random ramblings on why I think AI's climate impact should be ignored for now.",
     readTime: "5 min read",
     tags: ["AI", "Ethics", "Climate"],
     content: `
