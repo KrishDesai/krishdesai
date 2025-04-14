@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { PROJECTS } from "../constants"; 
-import { FaLaptopCode } from "react-icons/fa6";
+import { FaLaptopCode, FaGithub } from "react-icons/fa6";
 import { motion } from "framer-motion"; 
 import './Projects.css'; // Import the CSS file
 
@@ -47,7 +47,21 @@ const Projects = () => {
                 className="mb-6 rounded-2xl"
               />
               <div className="px-1">
-                <h6 className="mb-2 text-base font-semibold rounded bg-neutral-900 inline-block px-2 py-2 text-blue-300">{project.title}</h6>
+                <div className="flex items-center gap-2 mb-2">
+                  <h6 className="text-base font-semibold rounded bg-neutral-900 inline-block px-2 py-2 text-blue-300">
+                    {project.title}
+                  </h6>
+                  {project.github && (
+                    <a 
+                      href={project.github} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-neutral-400 hover:text-blue-300 transition-colors duration-300"
+                    >
+                      <FaGithub className="w-5 h-5" />
+                    </a>
+                  )}
+                </div>
                 <p className="mb-4 text-neutral-400">{project.description}</p>
               </div>
             </div>

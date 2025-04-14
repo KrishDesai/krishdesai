@@ -37,6 +37,7 @@ export const PROJECTS = [
     title: "Pigeon",
     image: project1,
     description: "News aggregation site that offers readers news by citing academic sources with limited conflict of interest to mitigate bias in media.",
+    github: "https://github.com/KrishDesai/newsonpigeon"
   },
   {
     title: "Stock Predictor",
@@ -47,6 +48,7 @@ export const PROJECTS = [
     title: "Bourbon",
     image: project3,
     description: "Past Cornell syllabi database to make course registration easier.",
+    github: "https://github.com/KrishDesai/bourbon."
   },
   {
     title: "World of Devs",

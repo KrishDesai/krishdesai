@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className = "m-2 flex items-center justify-center gap-4 text-2xl ">
         <a href="https://www.linkedin.com/in/desaikrish/" target="_blank"> <FaLinkedin/> </a>
         <a href="https://github.com/KrishDesai" target="_blank"> <FaGithub/> </a>
-        <a href="" target="_blank"> <IoDocumentText/> </a>
+        <a href="src/assets/resume.pdf" target="_blank"> <IoDocumentText/> </a>
     </div>
   </nav> 
 };
